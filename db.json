@@ -17,18 +17,6 @@
       "password": "abc@123",
       "email": "tony@seller.com",
       "id": 3
-    },
-    {
-      "name": "peter",
-      "password": "abc@123",
-      "email": "peter@test.com",
-      "id": 4
-    },
-    {
-      "name": "thor",
-      "password": "abc@123",
-      "email": "thor@test.com",
-      "id": 5
     }
   ]
 }
