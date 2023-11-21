@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { SellerService } from '../services/seller.service';
 import { Router } from '@angular/router';
+import { SignUp } from '../data-type';
 
 @Component({
   selector: 'app-seller-auth',
@@ -13,7 +14,7 @@ export class SellerAuthComponent {
 
   ngOnInit(): void{}
 
-  signUp(data:object):void{
+  signUp(data:SignUp):void{
     this.seller.userSignUp(data).subscribe((result)=>{
       if(result){
         this.router.navigate(['seller-home'])
