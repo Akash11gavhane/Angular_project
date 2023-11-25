@@ -25,15 +25,10 @@
       "id": 4
     },
     {
-      "name": "sam",
-      "password": "abc@123",
-      "email": "sam@text.com",
+      "name": "sky",
+      "password": "abc123",
+      "email": "sky@test.com",
       "id": 5
-    },
-    {
-      "email": "",
-      "password": "",
-      "id": 6
     }
   ]
 }

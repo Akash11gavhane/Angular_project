@@ -1,13 +1,13 @@
-export interface SignUp{
+export interface signUp{
 
-    name:string,
-    password:string,
+    name:string;
+    password:string;
     email:string
 }
 
-export interface Login{
+export interface login{
 
-    email:string,
-    password:string
+    email:String;
+    password:String
     
 }
