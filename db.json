@@ -30,5 +30,31 @@
       "email": "sky@test.com",
       "id": 5
     }
+  ],
+  "products": [
+    {
+      "name": "samsumg m40 ",
+      "price": "250000",
+      "color": "black",
+      "description": "samsung product",
+      "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.croma.com%2Fimage%2Fupload%2Fv1662703541%2FCroma%2520Assets%2FCommunication%2FMobiles%2FImages%2F261930_q0hq3w.png&tbnid=uPiYCM4HPkLRtM&vet=12ahUKEwi7yvWvn-KCAxUH2zgGHbBAAi4Q94IIKAB6BAgBEHc..i&imgrefurl=https%3A%2F%2Fwww.croma.com%2Fapple-iphone-14-128gb-midnight-%2Fp%2F261930&docid=WTQbOLmOSNeyVM&w=2400&h=2400&q=iphone%2014%20black%20color&ved=2ahUKEwi7yvWvn-KCAxUH2zgGHbBAAi4Q94IIKAB6BAgBEHc",
+      "id": 1
+    },
+    {
+      "name": "Iphone 14 ",
+      "price": "100000",
+      "color": "Black",
+      "description": "Iphone 14",
+      "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.croma.com%2Fimage%2Fupload%2Fv1662703541%2FCroma%2520Assets%2FCommunication%2FMobiles%2FImages%2F261930_q0hq3w.png&tbnid=uPiYCM4HPkLRtM&vet=12ahUKEwi7yvWvn-KCAxUH2zgGHbBAAi4Q94IIKAB6BAgBEHc..i&imgrefurl=https%3A%2F%2Fwww.croma.com%2Fapple-iphone-14-128gb-midnight-%2Fp%2F261930&docid=WTQbOLmOSNeyVM&w=2400&h=2400&q=iphone%2014%20black%20color&ved=2ahUKEwi7yvWvn-KCAxUH2zgGHbBAAi4Q94IIKAB6BAgBEHc",
+      "id": 2
+    },
+    {
+      "name": "Iphone 15",
+      "price": "110000",
+      "color": "Black",
+      "description": "Iphone 15",
+      "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.croma.com%2Fimage%2Fupload%2Fv1662703541%2FCroma%2520Assets%2FCommunication%2FMobiles%2FImages%2F261930_q0hq3w.png&tbnid=uPiYCM4HPkLRtM&vet=12ahUKEwi7yvWvn-KCAxUH2zgGHbBAAi4Q94IIKAB6BAgBEHc..i&imgrefurl=https%3A%2F%2Fwww.croma.com%2Fapple-iphone-14-128gb-midnight-%2Fp%2F261930&docid=WTQbOLmOSNeyVM&w=2400&h=2400&q=iphone%2014%20black%20color&ved=2ahUKEwi7yvWvn-KCAxUH2zgGHbBAAi4Q94IIKAB6BAgBEHc",
+      "id": 3
+    }
   ]
 }

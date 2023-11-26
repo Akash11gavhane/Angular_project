@@ -39,3 +39,7 @@ body {
     color: red;
   }
   
+.p_message{
+    color: green;
+    text-align: center;
+}

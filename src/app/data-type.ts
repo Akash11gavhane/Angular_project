@@ -11,3 +11,12 @@ export interface login{
     password:String
     
 }
+
+export interface product{
+    name:string,
+    price:number,
+    category:string,
+    color:string,
+    desciption:string,
+    image:string
+}

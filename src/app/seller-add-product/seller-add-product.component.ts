@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ProductService } from '../services/product.service';
+import { product } from '../data-type';
 
 @Component({
   selector: 'app-seller-add-product',
@@ -6,8 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./seller-add-product.component.css']
 })
 export class SellerAddProductComponent {
-
-  constructor() {
+  addProductMessage:string | undefined;
+  constructor(private product:ProductService) {
 
   }
 
@@ -15,8 +17,15 @@ export class SellerAddProductComponent {
 
   }
 
-  submit(data:object){
-    console.warn(data)
+  submit(data:product){
+    console.warn(data);
+    this.product.addProduct(data).subscribe((result)=>{
+      console.warn(result);
+      if(result){
+        this.addProductMessage="Product us successfully added"
+      }
+      setTimeout(()=>this.addProductMessage=undefined , 3000)
+    })
   }
 
 }
