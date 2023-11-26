@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class SellerAddProductComponent {
 
+  constructor() {
+
+  }
+
+  ngOnInit(): void{
+
+  }
+
+  submit(data:object){
+    console.warn(data)
+  }
+
 }
