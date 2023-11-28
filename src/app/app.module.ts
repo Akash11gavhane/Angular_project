@@ -13,6 +13,7 @@ import { SellerHomeComponent } from './seller-home/seller-home.component';
 import { SellerAddProductComponent } from './seller-add-product/seller-add-product.component';
 import { SellerProductListComponent } from './seller-product-list/seller-product-list.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { SellerUpdateProductComponent } from './seller-update-product/seller-update-product.component';
 
 
 const routes: Routes = [
@@ -27,7 +28,8 @@ const routes: Routes = [
     SellerAuthComponent,
     SellerHomeComponent,
     SellerAddProductComponent,
-    SellerProductListComponent
+    SellerProductListComponent,
+    SellerUpdateProductComponent
   ],
   imports: [
     BrowserModule,
