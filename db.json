@@ -35,6 +35,30 @@
       "password": "1234",
       "email": "harshada@gmail.com",
       "id": 6
+    },
+    {
+      "name": "jimmy",
+      "password": "abc123",
+      "email": "jimmy@seller.com",
+      "id": 7
+    },
+    {
+      "name": "kitty",
+      "password": "abc123",
+      "email": "kitty@seller.com",
+      "id": 8
+    },
+    {
+      "name": "arti",
+      "password": "abc123",
+      "email": "arti@seller.com",
+      "id": 9
+    },
+    {
+      "name": "jonny",
+      "password": "abc123",
+      "email": "jonny@seller.com",
+      "id": 10
     }
   ],
   "products": [
@@ -108,6 +132,24 @@
       "email": "vikas@user.com",
       "password": "1234",
       "id": 1
+    },
+    {
+      "name": "Akash",
+      "email": "akask@user.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "balaji",
+      "email": "balaji@user.com",
+      "password": "abc123",
+      "id": 3
+    },
+    {
+      "name": "jet",
+      "email": "jet@user.com",
+      "password": "abc123",
+      "id": 4
     }
   ]
 }

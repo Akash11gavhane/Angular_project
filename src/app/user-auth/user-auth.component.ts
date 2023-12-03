@@ -12,7 +12,7 @@ export class UserAuthComponent {
   constructor(private user:UserService){ }
 
   ngOnInit(): void{
-
+    this.user.userAuthReload()
   }
 
   signUp(data:signUp){
