@@ -150,6 +150,24 @@
       "email": "jet@user.com",
       "password": "abc123",
       "id": 4
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "name": "json",
+      "email": "json@user.com",
+      "password": "abc123",
+      "id": 7
     }
   ]
 }
