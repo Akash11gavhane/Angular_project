@@ -101,5 +101,13 @@
       "image": "",
       "id": 8
     }
+  ],
+  "users": [
+    {
+      "name": "Vikas",
+      "email": "vikas@user.com",
+      "password": "1234",
+      "id": 1
+    }
   ]
 }
