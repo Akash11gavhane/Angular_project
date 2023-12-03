@@ -10,6 +10,7 @@ import { Router } from '@angular/router';
 })
 export class UserService {
   invalidUserAuth= new EventEmitter<boolean>(false)
+  userAuth = new EventEmitter<boolean>(false)
   constructor(private http:HttpClient , private router:Router) { }
 
   userSignUp(user:signUp){
