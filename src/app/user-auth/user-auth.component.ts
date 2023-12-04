@@ -72,7 +72,7 @@ export class UserAuthComponent {
  
     setTimeout(() => {
      this.product.getCartList(userId)
-    }, 2000);
+    }, 500);
      
    }
 

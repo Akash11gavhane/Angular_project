@@ -85,4 +85,8 @@ export class ProductService {
       });
   }
 
+  removeToCart(cartId: number) {
+    return this.http.delete('http://localhost:3000/cart/' + cartId);
+  }
+
 }
