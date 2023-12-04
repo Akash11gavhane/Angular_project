@@ -6,6 +6,9 @@ import { cart, product } from '../data-type';
   providedIn: 'root'
 })
 export class ProductService {
+  addToProduct(cartData: cart) {
+    throw new Error('Method not implemented.');
+  }
 
   cartData = new EventEmitter<product[] | []>();
   constructor(private http:HttpClient) { }

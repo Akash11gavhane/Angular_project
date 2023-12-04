@@ -1,7 +1,7 @@
-import { Component } from '@angular/core';
+import { Component , OnInit} from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ProductService } from '../services/product.service';
-import { product } from '../data-type';
+import { cart, product } from '../data-type';
 import { faL } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -48,16 +48,32 @@ export class ProductDetailsComponent {
     }
   }
 
-  addToCart() {
-    if (this.productData) {
+  addToCart(){
+    if(this.productData){
       this.productData.quantity = this.productQuantity;
-      if (!localStorage.getItem('user')) {
-
+      if(!localStorage.getItem('user')){
         this.product.localAddToCart(this.productData);
-        this.removeCart = true
-      }
+        this.removeCart=true
+      }else{
+        let user = localStorage.getItem('user');
+        let userId= user && JSON.parse(user).id;
+        let cartData:cart={
+          ...this.productData,
+          productId:this.productData.id,
+          userId
+        }
+        delete cartData.id;
+        this.product.addToCart(cartData).subscribe((result)=>{
+          if(result){
+           //this.product.getCartList(userId);
+           //this.removeCart=true
 
-    }
+           alert('product added in cart')
+          }
+        })        
+      }
+      
+    } 
   }
 
   removeToCart(productId: number) {
