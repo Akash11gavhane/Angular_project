@@ -5,18 +5,18 @@
 
         <div class="col-sm-8 details">
 
-            <ul>
+            <ul *ngFor="let cart of cartData">
                 <li>
-                    <img src="https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388" alt="">
+                    <img src="{{cart.image}}" alt="">
                 </li>
                 <li>
-                    <span>Product Name</span>
+                    <span>{{cart.name}}</span>
                 </li>
                 <li>
-                    <span>Price : 100</span>
+                    <span>{{cart.price}}</span>
                 </li>
                 <li>
-                    <span>Quantity : 5</span>
+                    <span>{{cart.quantity}}</span>
                 </li>
                 <li>
                     <Button class="form-button">Remove to Cart</Button>
