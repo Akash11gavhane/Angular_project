@@ -173,6 +173,42 @@
       "productId": 4,
       "userId": 4,
       "id": 1
+    },
+    {
+      "name": "Samsung m 40 a ",
+      "price": "550",
+      "category": "mobile",
+      "color": "white",
+      "description": "this is a Samsung product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "quantity": 1,
+      "productId": 1,
+      "userId": 4,
+      "id": 2
+    },
+    {
+      "name": "I phone 14",
+      "price": "100000",
+      "category": "mobile",
+      "color": "black",
+      "description": "An Apple Product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "quantity": 1,
+      "productId": 2,
+      "userId": 4,
+      "id": 3
+    },
+    {
+      "name": "HP Laptop",
+      "price": "60000",
+      "category": "Laptop",
+      "color": "black",
+      "description": "Hp laptop for student and professionals",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
+      "quantity": 1,
+      "productId": 3,
+      "userId": 4,
+      "id": 4
     }
   ]
 }
