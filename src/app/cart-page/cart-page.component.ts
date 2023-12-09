@@ -12,10 +12,23 @@ export class CartPageComponent implements OnInit{
   constructor(private product:ProductService){ }
 
   ngOnInit(): void {
-    this.product.currentCart().subscribe((result)=>{
-      console.warn(result);
-      
-      
+
+    this.product.currentCart().subscribe((result) => {
+      this.cartData = result;
+      console.warn(this.cartData);
+      let price = 0;
+      result.forEach((item) => {
+        if (item.quantity) {
+          price = price + (+item.price * +item.quantity)
+        }
+      })
+
     })
+      
+    }
   }
+
+function loadDetails() {
+  throw new Error('Function not implemented.');
 }
+
